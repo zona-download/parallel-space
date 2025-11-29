@@ -191,7 +191,7 @@
       // Ketika tombol diklik, buka URL di tab baru
       btn.addEventListener('click', () => {
         const url = btn.getAttribute('data-link');
-        window.open(url, '_blank'); // Arahkan pengguna di tab baru
+        window.location.href = url; // Arahkan pengguna ke halaman baru
       });
     });
   </script>
